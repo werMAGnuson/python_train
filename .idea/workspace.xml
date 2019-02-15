@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UntitledTestCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+            <state relative-caret-position="510">
+              <caret line="45" selection-start-line="45" selection-end-line="46" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -24,7 +24,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/staff.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -33,13 +49,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/staff.py" />
         <option value="$PROJECT_DIR$/UntitledTestCase.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1150" />
-    <option name="y" value="-1095" />
+    <option name="x" value="979" />
+    <option name="y" value="-1110" />
     <option name="width" value="1120" />
     <option name="height" value="627" />
   </component>
@@ -78,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.UntitledTestCase">
     <configuration name="UntitledTestCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,9 +117,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_train" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;UntitledTestCase.UntitledTestCase.test_untitled_test_case&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_train" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.UntitledTestCase" />
+        <item itemvalue="Python tests.pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" />
+        <item itemvalue="Python tests.pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +168,20 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_UntitledTestCase_UntitledTestCase_test_untitled_test_case_staff - 2019.02.15 at 12h 52m 45s.xml">
+      <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_UntitledTestCase_UntitledTestCase_test_untitled_test_case_staff - 2019.02.15 at 12h 52m 49s.xml">
+      <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_UntitledTestCase_UntitledTestCase_test_untitled_test_case_staff - 2019.02.15 at 12h 54m 01s.xml">
+      <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_UntitledTestCase_UntitledTestCase_test_untitled_test_case - 2019.02.15 at 12h 55m 02s.xml">
+      <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="985" y="-1094" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
@@ -134,24 +197,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UntitledTestCase.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
@@ -168,10 +220,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/staff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UntitledTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+        <state relative-caret-position="510">
+          <caret line="45" selection-start-line="45" selection-end-line="46" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
