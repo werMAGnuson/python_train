@@ -1,11 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
+
+
+
+from fixture.staff import StaffHelper
 from fixture.session import SessionHelper
 
 __author__ = 'andrey'
@@ -19,27 +19,7 @@ class Applikation:
         self.verificationErrors = []
         self.accept_next_alert = True
         self.session = SessionHelper(self)
-
-    def delite_staff(self):
-        driver = self.driver
-        driver.find_element_by_class_name("ui-grid-disable-selection").click()
-        driver.find_element_by_id("delete-staff-button").click()
-        driver.find_element_by_id("c1-popup-ok").click()
-        driver.find_element_by_id("c1-popup-ok").click()
-
-    def create_staff(self, staff):
-        driver = self.driver
-        driver.find_element_by_id("c1-menu-management").click()
-        driver.find_element_by_id("c1-menu-staff").click()
-        wait = WebDriverWait(driver, 10000)
-        el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block-overlay")))
-        driver.find_element_by_class_name("fa-plus").click()
-        driver.find_element_by_id("add-agent-form-name").send_keys(staff.staff_name)
-        driver.find_element_by_id("add-agent-form-email").send_keys(staff.email)
-        Select(driver.find_element_by_id("add-agent-form-role")).select_by_visible_text(staff.group_name)
-        driver.find_element_by_xpath("//option[@value='4']").click()
-        driver.find_element_by_id("save-button-new-staff").click()
-        driver.find_element_by_id("c1-popup-ok").click()
+        self.staff = StaffHelper(self)
 
     def open_page(self):
         driver = self.driver

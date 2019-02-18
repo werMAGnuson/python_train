@@ -15,15 +15,15 @@ def app(request):
 
 def test_untitled_test_case(app):
     app.session.login(user_email="sprint52stag1msp@yopmail.com", password="!!TEst123")
-    app.create_staff(Staff(staff_name="somename", email="somename@yopmail.com", group_name="Admin"))
-    app.delite_staff()
+    app.staff.create(Staff(staff_name="somename", email="somename@yopmail.com", group_name="Admin"))
+    app.staff.delite()
     app.session.logout()
 
 
 def test_untitled_test_case_somenameu(app):
     app.session.login(user_email="sprint52stag1msp@yopmail.com", password="!!TEst123")
-    app.create_staff(Staff(staff_name="somenameu", email="somename@yopmail.com", group_name="Admin"))
-    app.delite_staff()
+    app.staff.create(Staff(staff_name="somenameu", email="somename@yopmail.com", group_name="Admin"))
+    app.staff.delite()
     app.session.logout()
 
 
