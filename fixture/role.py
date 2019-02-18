@@ -24,11 +24,7 @@ class RoleHelper:
         el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block-overlay")))
         driver.find_element_by_xpath("//div[contains(text(),'MSP Admin')]").click()
         driver.find_element_by_id("clone-staff-button").click()
-        driver.find_element_by_id("custom-definition").clear()
-        driver.find_element_by_id("custom-definition").send_keys(role.definition)
-        # el = wait.until(EC.text_to_be_present_in_element((By.ID, "name"),'Admin'))
-        driver.find_element_by_id("name").clear()
-        driver.find_element_by_id("name").send_keys(role.name)
+        self.role_description(role)
         driver.find_element_by_xpath("//button[contains(text(),'Save Changes')]").click()
         driver.find_element_by_id("c1-popup-ok").click()
 
@@ -38,14 +34,19 @@ class RoleHelper:
         el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block-overlay")))
         driver.find_element_by_xpath("//span[contains(text(),'" + role_old.name + "')]").click()
         driver.find_element_by_id("edit-staff-button").click()
-        driver.find_element_by_id("custom-definition").clear()
-        driver.find_element_by_id("custom-definition").send_keys(role.definition)
-        # el = wait.until(EC.text_to_be_present_in_element((By.ID, "name"),'Admin'))
-        driver.find_element_by_id("name").clear()
-        driver.find_element_by_id("name").send_keys(role.name)
+        self.role_description(role)
         driver.find_element_by_xpath("//button[contains(text(),'Save Changes')]").click()
         driver.find_element_by_id("c1-popup-ok").click()
 
+    def role_description(self, role):
+        driver = self.app.driver
+        if role.definition is not None:
+            driver.find_element_by_id("custom-definition").clear()
+            driver.find_element_by_id("custom-definition").send_keys(role.definition)
+        # el = wait.until(EC.text_to_be_present_in_element((By.ID, "name"),'Admin'))
+        if role.name is not None:
+            driver.find_element_by_id("name").clear()
+            driver.find_element_by_id("name").send_keys(role.name)
 
     def delite(self, role):
         driver = self.app.driver
