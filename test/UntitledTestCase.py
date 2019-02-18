@@ -2,8 +2,8 @@
 
 
 import pytest
-from app import Applikation
-from staff import Staff
+from fixture.app import Applikation
+from model.staff import Staff
 
 
 @pytest.fixture()

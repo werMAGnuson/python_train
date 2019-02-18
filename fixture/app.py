@@ -34,12 +34,8 @@ class Applikation:
         wait = WebDriverWait(driver, 10000)
         el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block-overlay")))
         driver.find_element_by_class_name("fa-plus").click()
-        #driver.find_element_by_id("add-agent-form-name").click()
         driver.find_element_by_id("add-agent-form-name").send_keys(staff.staff_name)
-        #driver.find_element_by_id("add-agent-form-email").click()
-        # driver.find_element_by_id("add-agent-form-email").clear()
         driver.find_element_by_id("add-agent-form-email").send_keys(staff.email)
-        #driver.find_element_by_id("add-agent-form-role").click()
         Select(driver.find_element_by_id("add-agent-form-role")).select_by_visible_text(staff.group_name)
         driver.find_element_by_xpath("//option[@value='4']").click()
         driver.find_element_by_id("save-button-new-staff").click()
@@ -60,4 +56,3 @@ class Applikation:
 
     def destroy(self):
         self.driver.quit()
-        #self.assertEqual([], self.verificationErrors)

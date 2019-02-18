@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8f5c77-2014-4b31-b42a-2072a9b318fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/UntitledTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/UntitledTestCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UntitledTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/UntitledTestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/staff.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UntitledTestCase.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/UntitledTestCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#26#39#0" expanded="true" />
               </folding>
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+            <state relative-caret-position="969">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -38,7 +39,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/staff.py">
+        <entry file="file://$PROJECT_DIR$/model/staff.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="3" selection-end-column="12" />
@@ -63,8 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/staff.py" />
-        <option value="$PROJECT_DIR$/UntitledTestCase.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/UntitledTestCase.py" />
       </list>
     </option>
   </component>
@@ -85,6 +86,21 @@
             <path>
               <item name="python_train" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_train" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_train" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_train" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_train" type="b2602c69:ProjectViewProjectNode" />
@@ -113,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case">
+  <component name="RunManager" selected="Python tests.pytest for test.UntitledTestCase">
     <configuration name="UntitledTestCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UntitledTestCase.py" />
+      <option name="SCRIPT_NAME" value="D:\GitHub\python_train\test\UntitledTestCase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.UntitledTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +162,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;UntitledTestCase.UntitledTestCase.test_untitled_test_case&quot;" />
+      <option name="_new_target" value="&quot;test.UntitledTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.UntitledTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,15 +177,15 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff&quot;" />
+      <option name="_new_target" value="&quot;test.UntitledTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" />
+        <item itemvalue="Python tests.pytest for test.UntitledTestCase" />
         <item itemvalue="Python.UntitledTestCase" />
-        <item itemvalue="Python tests.pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case_staff" />
+        <item itemvalue="Python tests.pytest for test.UntitledTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -205,17 +221,26 @@
     <history-entry file="pytest_for_UntitledTestCase_UntitledTestCase_test_untitled_test_case - 2019.02.18 at 11h 35m 20s.xml">
       <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_UntitledTestCase_UntitledTestCase_test_untitled_test_case - 2019.02.18 at 11h 35m 54s.xml">
+      <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_UntitledTestCase_UntitledTestCase_test_untitled_test_case - 2019.02.18 at 11h 37m 57s.xml">
+      <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_UntitledTestCase_UntitledTestCase_test_untitled_test_case - 2019.02.18 at 11h 40m 16s.xml">
+      <configuration name="pytest for UntitledTestCase.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="985" y="-1094" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,29 +269,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/staff.py">
+    <entry file="file://$PROJECT_DIR$/model/staff.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UntitledTestCase.py">
+    <entry file="file://$PROJECT_DIR$/fixture/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="969">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
           <folding>
-            <element signature="e#26#39#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/test/UntitledTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#26#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
