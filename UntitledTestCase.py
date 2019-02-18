@@ -9,7 +9,7 @@ from staff import Staff
 @pytest.fixture()
 def app(request):
     fixture = Applikation()
-    request.addfinilizer(fixture.destroy())
+    request.addfinalizer(fixture.destroy)
     return fixture
 
 
