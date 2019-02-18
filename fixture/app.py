@@ -5,6 +5,9 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+from fixture.session import SessionHelper
+
 __author__ = 'andrey'
 
 
@@ -15,10 +18,7 @@ class Applikation:
         self.driver.implicitly_wait(30)
         self.verificationErrors = []
         self.accept_next_alert = True
-    def logout(self):
-        driver = self.driver
-        driver.find_element_by_id("c1-user-text").click()
-        driver.find_element_by_id("c1-menu-logout").click()
+        self.session = SessionHelper(self)
 
     def delite_staff(self):
         driver = self.driver
@@ -40,14 +40,6 @@ class Applikation:
         driver.find_element_by_xpath("//option[@value='4']").click()
         driver.find_element_by_id("save-button-new-staff").click()
         driver.find_element_by_id("c1-popup-ok").click()
-
-    def login(self, user_email, password):
-        driver = self.driver
-        #driver.find_element_by_id("email").click()
-        driver.find_element_by_id("email").send_keys(user_email)
-        driver.find_element_by_id("password").send_keys(password)
-        # driver.find_element_by_id("password").click()
-        driver.find_element_by_xpath("//input[@value='SIGN IN']").click()
 
     def open_page(self):
         driver = self.driver
