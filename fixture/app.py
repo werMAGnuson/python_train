@@ -1,10 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-
-
-
-
+from fixture.role import RoleHelper
 from fixture.staff import StaffHelper
 from fixture.session import SessionHelper
 
@@ -20,6 +15,7 @@ class Applikation:
         self.accept_next_alert = True
         self.session = SessionHelper(self)
         self.staff = StaffHelper(self)
+        self.role = RoleHelper(self)
 
     def open_page(self):
         driver = self.driver

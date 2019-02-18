@@ -15,3 +15,4 @@ class SessionHelper():
             driver = self.app.driver
             driver.find_element_by_id("c1-user-text").click()
             driver.find_element_by_id("c1-menu-logout").click()
+            #driver.getCurrentUrl()

@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -21,7 +23,10 @@ class StaffHelper:
         driver.find_element_by_id("c1-menu-staff").click()
         wait = WebDriverWait(driver, 10000)
         el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block-overlay")))
-        driver.find_element_by_class_name("fa-plus").click()
+        time.sleep(2)
+        #driver.find_element_by_class_name("fa-plus").click()
+        #driver.find_element_by_xpath("//button[contains(text(),'New Staff')]").click()
+        driver.find_element_by_id("new-staff-button").click()
         driver.find_element_by_id("add-agent-form-name").send_keys(staff.staff_name)
         driver.find_element_by_id("add-agent-form-email").send_keys(staff.email)
         Select(driver.find_element_by_id("add-agent-form-role")).select_by_visible_text(staff.group_name)
