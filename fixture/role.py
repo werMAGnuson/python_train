@@ -9,7 +9,7 @@ class RoleHelper:
     def __init__(self, app):
         self.app = app
 
-    def opan_to_roles(self):
+    def open_role_page(self):
         driver = self.app.driver
         driver.find_element_by_id("c1-menu-management").click()
         driver.find_element_by_id("c1-menu-roles").click()
@@ -55,7 +55,7 @@ class RoleHelper:
             driver.find_element_by_id("name").clear()
             driver.find_element_by_id("name").send_keys(role.name)
 
-    def delite(self, role):
+    def delete(self, role):
         driver = self.app.driver
         driver.find_element_by_xpath("//span[contains(text(),'" + role.name + "')]").click()
         driver.find_element_by_id("delete-staff-button").click()
