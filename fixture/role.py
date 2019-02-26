@@ -38,6 +38,13 @@ class RoleHelper:
         driver.find_element_by_xpath("//button[contains(text(),'Save Changes')]").click()
         driver.find_element_by_id("c1-popup-ok").click()
 
+    def role_is_exists(self, role):
+        driver = self.app.driver
+        wait = WebDriverWait(driver, 1000)
+        el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block-overlay")))
+
+        return len(driver.find_elements_by_xpath("//span[contains(text(),'" + role.name + "')]")) > 0
+
     def role_description(self, role):
         driver = self.app.driver
         if role.definition is not None:

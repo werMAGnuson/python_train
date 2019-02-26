@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6f8f5c77-2014-4b31-b42a-2072a9b318fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/role.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/role.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/role.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/role.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_role.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_role.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -27,8 +30,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_role.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+            <state relative-caret-position="323">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/_pytest/python.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
             </state>
           </provider>
         </entry>
@@ -36,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -48,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/role.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="355">
+              <caret line="51" column="85" lean-forward="true" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -58,10 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/role.py">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="176">
+              <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
             </state>
           </provider>
         </entry>
@@ -69,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="197">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -81,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -117,6 +129,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -137,24 +154,24 @@
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/UntitledTestCase.py" />
         <option value="$PROJECT_DIR$/fixture/group.py" />
-        <option value="$PROJECT_DIR$/fixture/app.py" />
         <option value="$PROJECT_DIR$/test/conftest.py" />
         <option value="$PROJECT_DIR$/test/UntitledTestCase.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/fixture/staff.py" />
-        <option value="$PROJECT_DIR$/test/test_user.py" />
         <option value="$PROJECT_DIR$/model/role.py" />
+        <option value="$PROJECT_DIR$/test/test_user.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/fixture/app.py" />
+        <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/test/test_role.py" />
         <option value="$PROJECT_DIR$/fixture/role.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1105" />
-    <option name="y" value="-1113" />
-    <option name="width" value="896" />
-    <option name="height" value="502" />
+    <option name="x" value="1246" />
+    <option name="y" value="-1116" />
+    <option name="width" value="574" />
+    <option name="height" value="322" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -222,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_role.py">
+  <component name="RunManager" selected="Python tests.pytest for test_role.test_delite_role">
     <configuration name="pytest for test.UntitledTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +255,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_role.test_create_delite_role" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_role.test_delite_role" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,7 +266,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_role.test_create_delite_role&quot;" />
+      <option name="_new_target" value="&quot;test_role.test_delite_role&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -315,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_role.py" />
+        <item itemvalue="Python tests.pytest for test_role.test_delite_role" />
         <item itemvalue="Python tests.pytest in test" />
-        <item itemvalue="Python tests.pytest for test_user.test_create_delite_staff" />
-        <item itemvalue="Python tests.pytest for test_role.test_create_delite_role" />
+        <item itemvalue="Python tests.pytest in test_role.py" />
         <item itemvalue="Python tests.pytest in test_user.py" />
+        <item itemvalue="Python tests.pytest for test_user.test_create_delite_staff" />
       </list>
     </recent_temporary>
   </component>
@@ -355,50 +372,58 @@
       <option name="project" value="LOCAL" />
       <updated>1550501526673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="role defalt values added and used wit one value for edit">
+      <created>1550503522512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550503522512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test - 2019.02.18 at 16h 12m 52s.xml">
-      <configuration name="pytest in test" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 08m 17s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_role_py - 2019.02.18 at 16h 38m 28s.xml">
-      <configuration name="pytest in test_role.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 10m 02s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_role_py - 2019.02.18 at 16h 39m 26s.xml">
-      <configuration name="pytest in test_role.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 15m 07s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test - 2019.02.18 at 16h 40m 09s.xml">
-      <configuration name="pytest in test" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 16m 23s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_role_py - 2019.02.18 at 16h 48m 32s.xml">
-      <configuration name="pytest in test_role.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 18m 14s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_role_py - 2019.02.18 at 16h 49m 59s.xml">
-      <configuration name="pytest in test_role.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 20m 15s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test - 2019.02.18 at 16h 51m 06s.xml">
-      <configuration name="pytest in test" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 20m 43s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_role_py - 2019.02.18 at 17h 05m 50s.xml">
-      <configuration name="pytest in test_role.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 22m 37s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_role_py - 2019.02.18 at 17h 16m 44s.xml">
-      <configuration name="pytest in test_role.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 23m 33s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_role_py - 2019.02.18 at 17h 17m 52s.xml">
-      <configuration name="pytest in test_role.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_role_test_delite_role - 2019.02.26 at 10h 25m 03s.xml">
+      <configuration name="pytest for test_role.test_delite_role" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="985" y="-1094" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31328487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.4305949" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,7 +440,29 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Staff class created" />
     <MESSAGE value="Roles added &#10;conftests with sessions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Roles added &#10;conftests with sessions" />
+    <MESSAGE value="role defalt values added and used wit one value for edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="role defalt values added and used wit one value for edit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_role.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_role.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_role.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
@@ -432,10 +479,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/role.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/staff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -451,56 +512,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/staff.py">
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="197">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/role.py">
+    <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/role.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="355">
+          <caret line="51" column="85" lean-forward="true" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
@@ -509,8 +570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_role.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
