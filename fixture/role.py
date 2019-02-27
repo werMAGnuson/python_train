@@ -4,6 +4,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
 
+from model.role import Role
+
 
 class RoleHelper:
     def __init__(self, app):
@@ -11,6 +13,9 @@ class RoleHelper:
 
     def open_role_page(self):
         driver = self.app.driver
+        if driver.current_url.endswith("/management/role") and len(
+                driver.find_elements_by_id("clone-staff-button")) > 0:
+            return
         driver.find_element_by_id("c1-menu-management").click()
         driver.find_element_by_id("c1-menu-roles").click()
         wait = WebDriverWait(driver, 1000)
@@ -63,3 +68,22 @@ class RoleHelper:
         # time.sleep(3)
         wait = WebDriverWait(driver, 1000)
         el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block")))
+
+    def get_role_list(self):
+        driver = self.app.driver
+        role_list = []
+        for elements in driver.find_elements_by_css_selector("div.ui-grid-row.ng-scope"):
+            name_column = elements.find_element_by_css_selector("span.float-left.ng-binding.ng-scope")#.get_text()
+            name = name_column.text
+            def_column = elements.find_element_by_css_selector("div.ui-grid-cell-contents.ng-binding.ng-scope")#.get_text()
+            definition = def_column.text
+            role_list.append(Role(name, definition))
+        # for elements in driver.find_elements_by_css_selector("span.float-left.ng-binding.ng-scope"):
+        #     text = elements.get_text()
+        return role_list
+
+    # def switch_role_page(self):
+    #     driver = self.app.driver
+    #
+    #     wait = WebDriverWait(driver, 1000)
+    #     el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block")))
