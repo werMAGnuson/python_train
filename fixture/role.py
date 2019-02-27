@@ -54,6 +54,8 @@ class RoleHelper:
         driver = self.app.driver
         if role.definition is not None:
             driver.find_element_by_id("custom-definition").clear()
+            driver.find_element_by_id("custom-definition").send_keys("     ")
+            driver.find_element_by_id("custom-definition").clear()
             driver.find_element_by_id("custom-definition").send_keys(role.definition)
         # el = wait.until(EC.text_to_be_present_in_element((By.ID, "name"),'Admin'))
         if role.name is not None:
