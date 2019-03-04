@@ -32,6 +32,7 @@ class RoleHelper:
         self.role_description(role)
         driver.find_element_by_xpath("//button[contains(text(),'Save Changes')]").click()
         driver.find_element_by_id("c1-popup-ok").click()
+        self.role_cash = None
 
     def modify(self, role, role_old):
         driver = self.app.driver
@@ -42,6 +43,7 @@ class RoleHelper:
         self.role_description(role)
         driver.find_element_by_xpath("//button[contains(text(),'Save Changes')]").click()
         driver.find_element_by_id("c1-popup-ok").click()
+        self.role_cash = None
 
     def role_is_exists(self, role):
         driver = self.app.driver
@@ -70,19 +72,24 @@ class RoleHelper:
         # time.sleep(3)
         wait = WebDriverWait(driver, 1000)
         el = wait.until(EC.invisibility_of_element((By.CLASS_NAME, "c1-block")))
+        self.role_cash = None
+
+    role_cash = None
 
     def get_role_list(self):
-        driver = self.app.driver
-        role_list = []
-        for elements in driver.find_elements_by_css_selector("div.ui-grid-row.ng-scope"):
-            name_column = elements.find_element_by_css_selector("span.float-left.ng-binding.ng-scope")#.get_text()
-            name = name_column.text
-            def_column = elements.find_element_by_css_selector("div.ui-grid-cell-contents.ng-binding.ng-scope")#.get_text()
-            definition = def_column.text
-            role_list.append(Role(name, definition))
-        # for elements in driver.find_elements_by_css_selector("span.float-left.ng-binding.ng-scope"):
-        #     text = elements.get_text()
-        return role_list
+        if self.role_cash is None:
+            driver = self.app.driver
+            self.role_cash = []
+            for elements in driver.find_elements_by_css_selector("div.ui-grid-row.ng-scope"):
+                name_column = elements.find_element_by_css_selector("span.float-left.ng-binding.ng-scope")#.get_text()
+                name = name_column.text
+                def_column = elements.find_element_by_css_selector("div.ui-grid-cell-contents.ng-binding.ng-scope")#.get_text()
+                definition = def_column.text
+                self.role_cash.append(Role(name, definition))
+            # for elements in driver.find_elements_by_css_selector("span.float-left.ng-binding.ng-scope"):
+            #     text = elements.get_text()
+
+        return list(self.role_cash)
 
     # def switch_role_page(self):
     #     driver = self.app.driver
